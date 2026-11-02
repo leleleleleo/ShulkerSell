@@ -1,0 +1,15 @@
+name: ShulkerSell
+version: 1.0.0
+main: dev.shulkersell.ShulkerSellPlugin
+api-version: '1.21'
+description: Sell menu that sells shulker contents (or the empty shulker) using EconomyShopGUI prices.
+softdepend: [EconomyShopGUI, EconomyShopGUI-Premium, Essentials]
+commands:
+  sell:
+    description: Open the sell menu
+    aliases: [sellshulker]
+    permission: shulkersell.use
+permissions:
+  shulkersell.use:
+    description: Allows using the /sell menu
+    default: true
